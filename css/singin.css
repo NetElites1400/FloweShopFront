@@ -1,0 +1,141 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "dani";
+}
+
+@font-face{
+	font-family: "dani";
+	src: url("font/vazir.woff") format("woff");
+}
+
+body{
+    background-color: #EED7DB;
+    font-family: "dani";
+    width: 100%;
+    height: 100%;
+}
+
+.cont-main{
+    background-color: #ffffff;
+    width: 90%;
+    height: 90%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.image-main{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.cont-main .image-main .image img{
+    width: 850px;
+    height: 650px;
+}
+
+.text-main .text-form .texts{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.text-main .text-form .texts p{
+    font-size: 25px;
+}
+
+.image-main img{
+    width: 100%;
+}
+
+.text-main{
+    width: 90%;
+    height: 250px;
+    padding: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.text-main .text-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+
+
+.text-main .text-form h3{
+    display: flex;
+    font-size: 40px;
+}
+
+.cont-main .text-main .text-form .input {
+    display: flex;
+    background: transparent;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 45px;
+
+}
+
+.cont-main .text-main .text-form .input .icon{
+    width: 340px;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    text-align: right;
+    border: 1px solid #707070;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cont-main .text-main .text-form .input .icon input{
+    width: 85%;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.cont-main .text-main .text-form .input .icon i.fa{
+    width: 10%;
+    height: 20px;
+    border-left: 1px solid black;
+}
+
+.cont-main .text-main .text-form .input .icon i.fa::before{
+    margin-right: 7px;
+    margin-top: 5px;
+}
+
+.input .btn button{
+    width: 340px;
+    height: 40px;
+    background-color: #EED7DB;
+    outline: none;
+    border: none;
+    padding: 10px 100px;
+    margin-bottom: 4px;
+    margin-top: 45px;
+    border-radius: 5px;
+
+}
+
+
+
+
