@@ -233,7 +233,7 @@ body {
     width: 100%;
     height: 250px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     margin-top: 25px;
@@ -242,6 +242,9 @@ body {
 .section-conatiner .bottom .specifications .top {
     width: 90%;
     height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     border-bottom: 1px solid #707070;
 }
 
@@ -302,11 +305,224 @@ body {
     border-bottom: 1px solid #707070;
     display: flex;
     justify-content: flex-start;
-    align-items:  center;
+    align-items: center;
 }
 
 .section-conatiner .bottom .comment {
     width: 100%;
-    height: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.section-conatiner .bottom .comment .comment-top {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #707070;
+}
+
+.section-conatiner .bottom .comment .comment-bottom {
+    width: 90%;
+    height: 650px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .comment-text {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #707070;
+    border-radius: 10px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .repale-comment {
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 140px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .comment-text .image {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .repale-comment .image {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .comment-text .image img {
+    width: 100%;
+    height: 140px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .repale-comment .image img {
+    width: 100%;
+    height: 140px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .comment-text .text {
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .repale-comment .text {
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .comment-text .text .user-comment {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .repale-comment .text .user-comment {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 25px
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .comment-text .text .user-comment p {
+    margin-right: 10px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .repale-comment .text .user-comment p {
+    margin-right: 10px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .comment-text .text .user-comment p:nth-child(1) {
+    font-weight: bold;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .repale-comment .text .user-comment p:nth-child(1) {
+    font-weight: bold;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .comment-text .text .des {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .top .repale-comment .text .des {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .comment-send {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid #707070;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .comment-send .input {
+    width: 90%;
+    height: 50px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .comment-send .input i.fa {
+    width: 5%;
+    height: 45px;
     border: 1px solid black;
+    margin-right: 10px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .comment-send .input input[type=text] {
+    width: 90%;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .comment-send textarea {
+    width: 90%;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+}
+
+.section-conatiner .bottom .comment .comment-bottom .comment-send .button {
+    width: 90%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 5px;
 }
