@@ -1,4 +1,4 @@
-*{
+* {
     margin: auto;
     padding: auto;
     box-sizing: border-box;
@@ -6,19 +6,19 @@
     font-family: "dani";
 }
 
-@font-face{
-	font-family: "dani";
-	src: url("font/vazir.woff") format("woff");
+@font-face {
+    font-family: "dani";
+    src: url("font/vazir.woff") format("woff");
 }
 
-body{
+body {
     background-color: #EED7DB;
     font-family: "dani";
     width: 100%;
     height: 100%;
 }
 
-.cont-main{
+.cont-main {
     background-color: #ffffff;
     width: 90%;
     height: 90%;
@@ -26,32 +26,32 @@ body{
     margin-bottom: 30px;
 }
 
-.image-main{
+.image-main {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
 }
 
-.cont-main .image-main img{
+.cont-main .image-main img {
     width: 850px;
     height: 650px;
 }
 
-.text-main .text-form .texts{
+.text-main .text-form .texts {
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
 }
 
-.text-main .text-form .texts p{
+.text-main .text-form .texts p {
     font-size: 25px;
 }
 
-.image-main img{
+.image-main img {
     width: 100%;
 }
 
-.text-main{
+.text-main {
     width: 90%;
     height: 250px;
     padding: 0px;
@@ -61,8 +61,7 @@ body{
     flex-direction: column;
 }
 
-
-.text-main .text-form{
+.text-main .text-form {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -71,9 +70,7 @@ body{
     flex-direction: column;
 }
 
-
-
-.text-main .text-form h3{
+.text-main .text-form h3 {
     display: flex;
     font-size: 40px;
 }
@@ -86,10 +83,9 @@ body{
     align-items: center;
     margin: auto;
     margin-bottom: 45px;
-
 }
 
-.cont-main .text-main .text-form .input .icon{
+.cont-main .text-main .text-form .input .icon {
     width: 340px;
     height: 40px;
     background: transparent;
@@ -104,7 +100,7 @@ body{
     align-items: center;
 }
 
-.cont-main .text-main .text-form .input button{
+.cont-main .text-main .text-form .input button {
     background-color: #EED7DB;
     width: 100%;
     outline: none;
@@ -115,7 +111,7 @@ body{
     border-radius: 5px;
 }
 
-.cont-main .text-main .text-form .input .icon input{
+.cont-main .text-main .text-form .input .icon input {
     width: 85%;
     height: 35px;
     border: none;
@@ -123,18 +119,18 @@ body{
     cursor: pointer;
 }
 
-.cont-main .text-main .text-form .input .icon i.fa{
+.cont-main .text-main .text-form .input .icon i.fa {
     width: 10%;
     height: 20px;
     border-left: 1px solid black;
 }
 
-.cont-main .text-main .text-form .input .icon i.fa::before{
+.cont-main .text-main .text-form .input .icon i.fa::before {
     margin-right: 7px;
     margin-top: 5px;
 }
 
-.input .btn button{
+.input .btn button {
     width: 340px;
     height: 40px;
     background-color: #EED7DB;
@@ -144,10 +140,83 @@ body{
     margin-bottom: 4px;
     margin-top: 45px;
     border-radius: 5px;
-
 }
 
+.conatiner-fotter {
+    width: 100%;
+    height: 500px;
+    background: url('../img/footer.png') center no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
 
+.conatiner-fotter .top {
+    width: 175px;
+    height: 175px;
+}
 
+.conatiner-fotter .top img {
+    width: 100%;
+    height: 100%;
+}
 
+.conatiner-fotter .bottom {
+    width: 100%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.conatiner-fotter .bottom>div {
+    width: 30%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner-fotter .bottom>div:nth-child(1) {
+    flex-direction: column;
+}
+
+.conatiner-fotter .bottom>div:nth-child(1) p:nth-child(1) {
+    font-weight: bold;
+}
+
+.conatiner-fotter .bottom>div:nth-child(1) .icon {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.conatiner-fotter .bottom>div:nth-child(1) .icon i.fa {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.conatiner-fotter .bottom>div:nth-child(2) {
+    flex-direction: column;
+}
+
+.conatiner-fotter .bottom>div:nth-child(2) p:nth-child(1) {
+    font-weight: bold;
+}
+
+.conatiner-fotter .bottom>div:nth-child(2) p:nth-child(2) {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.conatiner-fotter .bottom>div img {
+    width: 80%;
+    height: 150px;
+}

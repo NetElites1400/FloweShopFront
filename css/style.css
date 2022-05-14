@@ -16,7 +16,7 @@ body {
     min-height: 100vh;
 }
 
-.button{
+.button {
     width: 90%;
     height: 50px;
     background-color: #EED7DB;
@@ -139,7 +139,7 @@ body {
     margin-left: 10px;
 }
 
-.section_container .section .baskit .right .image{
+.section_container .section .baskit .right .image {
     width: 25%;
     height: 210px;
     border: 1px solid #707070;
@@ -147,13 +147,13 @@ body {
     margin-right: 10px;
 }
 
-.section_container .section .baskit .right .image img{
+.section_container .section .baskit .right .image img {
     width: 100%;
     height: 210px;
     border-radius: 10px;
 }
 
-.section_container .section .baskit .right .des{
+.section_container .section .baskit .right .des {
     width: 70%;
     height: 220px;
     display: flex;
@@ -163,11 +163,11 @@ body {
     margin-right: 10px;
 }
 
-.section_container .section .baskit .right .des .text{
+.section_container .section .baskit .right .des .text {
     font-size: 0.8em;
 }
 
-.section_container .section .baskit .right .des .count{
+.section_container .section .baskit .right .des .count {
     width: 175px;
     height: 50px;
     border: 1px solid #707070;
@@ -178,7 +178,7 @@ body {
     align-items: center;
 }
 
-.section_container .section .baskit .right .des .count i.fa{
+.section_container .section .baskit .right .des .count i.fa {
     width: 25px;
     height: 25px;
     border: 1px solid black;
@@ -193,7 +193,7 @@ body {
     flex-direction: column;
 }
 
-.section_container .section .baskit .left .top{
+.section_container .section .baskit .left .top {
     width: 90%;
     height: 150px;
     display: flex;
@@ -203,7 +203,7 @@ body {
     border-bottom: 1px solid #707070;
 }
 
-.section_container .section .baskit .left .top .input{
+.section_container .section .baskit .left .top .input {
     width: 90%;
     height: 50px;
     border: 1px solid #707070;
@@ -213,14 +213,14 @@ body {
     align-items: center;
 }
 
-.section_container .section .baskit .left .top .input i.fa{
+.section_container .section .baskit .left .top .input i.fa {
     width: 10%;
     height: 45px;
     border: 1px solid black;
     margin-left: 5px;
 }
 
-.section_container .section .baskit .left .top .input input[type=text]{
+.section_container .section .baskit .left .top .input input[type=text] {
     width: 80%;
     height: 45px;
     padding-left: 10px;
@@ -229,7 +229,7 @@ body {
     border: none;
 }
 
-.section_container .section .baskit .left .bottom{
+.section_container .section .baskit .left .bottom {
     width: 90%;
     height: 250px;
     display: flex;
@@ -238,7 +238,7 @@ body {
     flex-direction: column;
 }
 
-.section_container .section .baskit .left .bottom .text{
+.section_container .section .baskit .left .bottom .text {
     width: 100%;
     height: 50px;
     display: flex;
@@ -350,7 +350,7 @@ body {
     flex-direction: column;
 }
 
-.section_container .section .order .bottom .bottom>div .image{
+.section_container .section .order .bottom .bottom>div .image {
     width: 280px;
     height: 150px;
     border: 1px solid #707070;
@@ -358,13 +358,13 @@ body {
     margin-top: 10px;
 }
 
-.section_container .section .order .bottom .bottom>div .image img{
+.section_container .section .order .bottom .bottom>div .image img {
     width: 100%;
     height: 150px;
     border-radius: 10px;
 }
 
-.section_container .section .order .bottom .bottom>div .text{
+.section_container .section .order .bottom .bottom>div .text {
     width: 100%;
     height: 150px;
     display: flex;
@@ -373,6 +373,85 @@ body {
     flex-direction: column;
 }
 
-.address{
+.address {
     background-color: #EED7DB;
+}
+
+.conatiner-fotter {
+    width: 100%;
+    height: 500px;
+    background: url('../img/footer.png') center no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conatiner-fotter .top {
+    width: 175px;
+    height: 175px;
+}
+
+.conatiner-fotter .top img {
+    width: 100%;
+    height: 100%;
+}
+
+.conatiner-fotter .bottom {
+    width: 100%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner-fotter .bottom>div {
+    width: 30%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner-fotter .bottom>div:nth-child(1) {
+    flex-direction: column;
+}
+
+.conatiner-fotter .bottom>div:nth-child(1) p:nth-child(1) {
+    font-weight: bold;
+}
+
+.conatiner-fotter .bottom>div:nth-child(1) .icon {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.conatiner-fotter .bottom>div:nth-child(1) .icon i.fa {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.conatiner-fotter .bottom>div:nth-child(2) {
+    flex-direction: column;
+}
+
+.conatiner-fotter .bottom>div:nth-child(2) p:nth-child(1) {
+    font-weight: bold;
+}
+
+.conatiner-fotter .bottom>div:nth-child(2) p:nth-child(2) {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.conatiner-fotter .bottom>div img {
+    width: 80%;
+    height: 150px;
 }
